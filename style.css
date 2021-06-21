@@ -1,0 +1,289 @@
+.header{
+    margin: 180px;
+    margin-top: auto;
+}
+
+.logo-docplanner{
+    position: relative;
+    float: left;
+    width: 300px;
+}
+.navbar a {
+    position: relative;
+    float: right;
+    color: #0a0a0a96;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+nav ul  {
+    list-style-type: none;
+}
+ 
+.navbar a.active{
+    color: powderblue;
+}
+.navbar a:hover {
+    color: rgb(178, 238, 178);}
+
+    .navbar.current{
+        text-decoration: rgba(70, 228, 136, 0.377);
+    }
+ .header{
+        position: fixed;
+     
+        width: 75%;
+    }
+   
+.lead__logo{
+    display: block;
+    padding-top: 60px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+     width: 36px;
+    
+}    
+h1{
+    
+    color: rgb(16, 196, 151);
+    text-align: center;
+    font-size: 35px;
+}
+.paragpaphs{
+    font-size: 17.5px;
+    line-height: 1.5;
+    display: flex;
+    align-content: center;
+    margin: 180px;
+    margin-top: initial;
+    width: 950px;
+    
+}
+
+
+.p1{
+    float: right;
+    color: rgb(5, 0, 0);
+    width: 50%;
+    
+
+}
+.p2{
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+  
+}
+
+.patients{
+    
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 180px;
+    
+}
+.forpatients{
+    background-color: rgb(164, 248, 164);
+    margin-right:5px;
+    width: 295px;
+    height: 300px;
+    color: rgb(27, 3, 3);
+    border-radius: 15px;
+    
+}
+.fordoctor{
+    background-color: rgb(213, 213, 218);
+
+    width: 295px;
+    height: 300px;
+    border-radius: 15px;
+
+}
+.forclinic{
+    background-color: rgb(3, 3, 19);
+    width: 295px;
+    height: 300px;
+    border-radius: 15px;
+    margin-right: 155px;
+}
+.patients h1{
+    color: white;
+    text-align: left;
+    margin-left: 25px;
+}
+.patients img{
+ width: 25px;
+ margin-left: 25px;
+}
+.patients h2{
+    margin-left: 25px;
+}
+.brands{
+    display: flex;
+    color: gray;   
+    margin-left: 90px;
+}
+.brands ul{
+    flex-direction: ROW;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    height: 100px;
+}
+.brands li{
+    display: inline;
+}
+.brands img{
+    font-size: 30px;
+}
+.brands svg{
+    font-size: 20px;
+    width:180px;
+    margin-top: 20px;
+}
+.brands h1{
+    width: 300px;
+}
+.style-select{
+    background-color: transparent;
+    border: none;
+    text-decoration: black;
+    cursor: pointer;
+}
+.stats{
+    background-color: rgb(161, 248, 248);
+    position: relative;
+    width: 1349px;
+    height: 550px;
+    margin: -8px;
+    }
+    .stats h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(9, 12, 12, 0.329);
+        font-size:35px;
+        text-align: left;
+        margin: 150px;
+        
+        
+    }
+    .col p{
+        top: 1600px;
+        margin: 150px;
+        
+        font-size: 17px;
+    }
+    .grid {
+        width: 800px;
+        
+    }
+    .vert {
+        position: absolute;
+        top: 50px;
+        right: 400px;
+        width: 235px;
+        height: 220px;
+        box-shadow: white;
+        background-color: white;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .vert2{
+        position: absolute;
+        top: 30px;
+        right: 150px;
+        width: 235px;
+        height: 220px;
+        box-shadow: white;
+        background-color: white;
+        text-align: center;
+        border-radius: 15px;  
+    }
+    .vert3{
+        position: absolute;
+        top: 285px;
+        right: 400px;
+        width: 235px;
+        height: 220px;
+        box-shadow: white;
+        background-color: white;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .A1{
+        position: absolute;
+        top: 265px;
+        right: 150px;
+        width: 235px;
+        height: 220px;
+        box-shadow: white;
+        background-color: white;
+        text-align: center;
+        border-radius: 15px;  
+    }
+    .offices__header{
+        text-align: center;
+    }
+.office{
+
+    display: inline-flex;
+    position: relative;
+    left: 48px;
+   
+}
+.office__image{
+    
+
+}
+.btn{
+  position: absolute;
+  right: 100px;
+  border-radius: 5px;
+  background-color: blue;
+  width: 95px;
+  height: 24px;
+  text-align: center;
+
+  color: white;}
+  .desc{
+      color: rgba(49, 49, 49, 0.247);
+      position: relative;
+      right: -40px;
+      font-size: 17px;
+      text-decoration: none;
+      background-color: white;
+     
+      
+
+  }
+  .join-us h1{
+      color: rgb(15, 14, 14);
+      font-weight: normal;
+      font-style: normal;
+  }
+  .join-us a{
+      background-color:blue;
+      text-decoration: none;
+      display: flex;
+      margin-left: 570px;
+      margin-right: 520px;
+      height: 40px;
+      text-transform: uppercase;
+      font-size: 17px;
+      border-radius: 5px;
+      align-items: center;
+      color: white;
+  }
+  .main-footer{
+      margin-top: 50px;
+    border-top: 1px groove;
+  }
+  .section-footer{
+     text-decoration: none;
+     text-align: center;
+     font-size: 14px;
+  }
